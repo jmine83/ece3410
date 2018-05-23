@@ -1,0 +1,74 @@
+>> ce_amp.sp
+
+** Given Values **
+
+VCC = 10 V
+VEE = -10 V
+IE = 10 mA
+RF = 10 kΩ
+RL = 10 kΩ
+Av = -20 V/V
+fmin = 100 Hz
+beta = 256
+VA = 74.03 V
+RE1 = 50 Ω
+VT = 25.8519 mV
+vBE = 0.7 V
+pi = 3.14159265359
+
+** Derived Values **
+
+RC = 1 kΩ
+alpha = 0.996108949
+gm = 385.313632 mA/V
+ro = 7.431917969 kΩ
+rpi = 664.39383 Ω
+Rcoll = 150.6628834 kΩ
+Rbase = 13.51439383 kΩ
+RinF = 476.1904762 Ω
+RoutF = 9.523809524 kΩ
+RBtot = 459.9826206 Ω
+CB = 3.46002 µF
+RCtot = 825.3294705 Ω
+CC = 1.92838 µF
+IC = 9.961089 mA
+IB = 38.9105 mA
+VC = 10 V
+VB = 389.105058 mV
+VE = -310.894942 mV
+RE2 = 918.9105058 Ω
+REtot = 49.73885499 Ω
+CE = 31.9981 µF
+Av1 = -15.69207995 V/V
+Av2 = 23.91361024 dB
+solRC < solRcoll = TRUE
+solRC < solRoutF = TRUE
+solVC-solVE > 0.3 = TRUE
+
+** DC Operating Point **
+
+nb = -66.0997 mV
+nc = 475.0960 mV
+ncc = 10.0000 V
+ne = -771.220 mV
+nee = -10.0000 V
+nin = 0 V
+nout = 0 V
+nx = -1.24747 V
+
+** Transient Solution **
+
+Node                  Voltage
+----                  -------
+nin                         0
+ncc                        10
+nee                       -10
+nc                   0.475096
+nb                 -0.0660997
+ne                   -0.77122
+nout                        0
+nx                   -1.24747
+
+vipp = 99.99996 mV
+vopp = 1.555989 V
+gain = 15.55990 V/V
