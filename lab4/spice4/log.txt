@@ -1,0 +1,82 @@
+exercise1a.sp >>
+
+v(n1) = 3.000000e+00
+v(n2) = 2.000000e+00
+v(nout) = 2.469631e+00
+
+v(n1) = 3.000000e+00
+v(n2) = 2.800000e+00
+v(nout) = 2.470613e+00
+
+v(n1) = 3.000000e+00
+v(n2) = 3.200000e+00
+v(nout) = 2.666667e+00
+
+v(n1) = 3.000000e+00
+v(n2) = 4.000000e+00
+v(nout) = 3.452276e+00
+
+exercise1b.sp >>
+
+v(n1) = 3.000000e+00
+v(n2) = 2.000000e+00
+v(nout) = 2.530369e+00
+
+v(n1) = 3.000000e+00
+v(n2) = 2.800000e+00
+v(nout) = 3.309851e+00
+
+v(n1) = 3.000000e+00
+v(n2) = 3.200000e+00
+v(nout) = 3.503613e+00
+
+v(n1) = 3.000000e+00
+v(n2) = 4.000000e+00
+v(nout) = 3.504537e+00
+
+exercise2.sp >>
+
+vpeak = 1.495165e+00 at= 1.252800e-03
+
+exercise3.sp >>
+
+Results at 1kHz:
+vpeak = 1.495058e+00 at= 2.253280e-03
+vpp =  1.493188e+00 from= 3.000000e-03 to= 5.000000e-03
+
+Results at 10kHz:
+vpeak = 1.478263e+00 at= 1.271280e-04
+vpp = 8.126641e-01 from= 3.000000e-04 to= 5.000000e-04
+
+Results at 100kHz:
+vpeak = 1.402136e+00 at= 4.299280e-05
+vpp = 1.150929e-01 from= 3.000000e-05 to= 5.000000e-05
+
+exercise4.sp >>
+
+Results at 1kHz:
+vpeak = 1.037004e+00 at= 1.250280e-03
+vtrough = -1.037004e+00 at= 7.502800e-04
+vpp = 2.074007e+00 from= 3.000000e-03 to= 5.000000e-03
+
+exercise5.sp >>
+
+vpeak = 5.701334e+00 at= 4.250280e-03
+vtrough = -5.145712e-01 at= 5.422800e-04
+vpp = 6.006380e+00 from= 3.000000e-03 to= 5.000000e-03
+
+bridge_rectifier.sp >>
+
+vpeak = 8.578259e+00 at= 1.042800e-02
+
+superdiode.sp >>
+
+At 10 kHz, the waveform of vx shows slewing whereas earlier at 10 Hz the waveform did not show slewing.
+
+boost_converter.sp >>
+
+At D = 0.75, Vout approaches the expected value of 16 V, but firmly saturates at 11 V for unknown reasons.
+
+After setting D = 0.5, Vout does approach the expected value of 8 V and reaches the expected value at apx. 9 ms.
+
+

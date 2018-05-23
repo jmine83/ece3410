@@ -1,0 +1,12 @@
+*** RESULTS FOR CIRCUIT 1:
+y                   =  9.090909e-01
+Transfer Characteristic: vout = vin*0.909091
+
+*** RESULTS FOR CIRCUIT 2:
+y1                  =  -1.711150e-02
+y2                  =  -1.445070e+00
+y3                  =  -1.036042e+01
+f3db                =  1.587800e+04
+p3db                =  -4.492628e+01
+The -3dB frequency is 15878 Hz
+with Phase phi=-44.9263 degrees

@@ -1,0 +1,8 @@
+*** RESULTS FOR CIRCUIT 3:
+y1                  =  -2.405351e+01
+y2                  =  -5.481473e+00
+y3                  =  -4.198595e-01
+f3db                =  1.598052e+04
+p3db                =  4.491032e+01
+The -3dB frequency is 15980.5 Hz
+with Phase phi=44.9103 degrees

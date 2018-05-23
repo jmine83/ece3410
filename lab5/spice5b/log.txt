@@ -1,0 +1,106 @@
+balun.sp >>
+
+** Calculated Resistor Values **
+
+Node                 Voltage
+----                 -------
+nin                        0
+ndd                       10
+nr1                  8.00601
+ng2                  8.34726
+nd1                  6.95862
+ng1                  8.00601
+ns1                  3.04138
+nd2                  7.01366
+ns2                  1.89361
+pin                        0
+no1                        0
+no2                        0
+vg2#branch                 0
+vg1#branch     -1.35525e-020
+vdd#branch       -0.00499231
+vin#branch                 0
+
+pp1 = 326.9330 mV
+pp2 = 326.9328 mV
+ppin = 999.9903 mV
+cross1 = 9.959758 µs
+cross2 = 9.960023 µs
+
+Measuring the Amplitude Imbalance:
+ΔA = -73.9793 dBm
+
+Measuring the Phase Imbalance:
+Δφ = -83.2522 µrad
+
+balun_approx.sp >>
+
+** Standard Resistor Values **
+
+Node                 Voltage
+----                 -------
+nin                        0
+ndd                       10
+nr1                     8.01
+ng2                     8.35
+nd1                  6.95598
+ng1                     8.01
+ns1                  3.04402
+nd2                  7.01725
+ns2                  1.89591
+pin                        0
+no1                        0
+no2                        0
+nrd2                 7.15267
+nrs2                  1.7709
+vg2#branch                 0
+vg1#branch                 0
+vdd#branch       -0.00499436
+vin#branch                 0
+
+pp1 = 326.6644 mV
+pp2 = 326.6642 mV
+ppin = 999.9903 mV
+cross1 = 9.959765 µs
+cross2 = 9.960029 µs
+
+Measuring the Amplitude Imbalance:
+ΔA = -73.9793 dBm
+
+Measuring the Phase Imbalance:
+Δφ = -82.9380 µrad
+
+** 10% Error Simulation **
+
+Node                 Voltage
+----                 -------
+nin                        0
+ndd                       10
+nr1                     8.01
+ng2                     8.35
+nd1                  6.41385
+ng1                     8.01
+ns1                  2.93413
+nd2                  7.01725
+ns2                  1.89591
+pin                        0
+no1                        0
+no2                        0
+nrd2                 7.15267
+nrs2                  1.7709
+vg2#branch                 0
+vg1#branch                 0
+vdd#branch       -0.00510242
+vin#branch                 0
+
+pp1 = 356.2067 mV
+pp2 = 322.1213 mV
+ppin = 999.9903 mV
+cross1 = 9.960244 µs
+cross2 = 9.959920 µs
+
+Measuring the Amplitude Imbalance:
+ΔA = 30.65145 dBm
+
+Measuring the Phase Imbalance:
+Δφ = 101.7876 µrad

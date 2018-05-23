@@ -1,0 +1,24 @@
+exercise1.sp >>
+
+In the plot produced, it is observed that V_OUT and G_o*V_OFS are identical until the v-sweep reaches 7.083 mV. After this point, V_OUT saturates at 14.194 V while G_o*V_OFS continues along the line of linear voltage increase. This behavior is expected and correlates correctly with the pre-lab analysis.
+
+exercise2.sp >>
+
+Frequency, f | Gain (Open-Loop), A
+
+0.5 Hz | 197362 V/V
+5.0 Hz | 139560 V/V
+
+It is observed that the open-loop gain at 0.5 Hz and 5 Hz differs by 34.3%. This is reasonably close to the projected 30% difference described in the lab.
+
+exercise3.sp >>
+
+f_max = 39.79 mHz (Pre-Lab - Exercise 3)
+
+Frequency, f | THD | maxslope (V/s) | minslope (V/s)
+
+30 kHz | 0.166% | 381530 | -376570
+40 kHz | 1.116% | 489760 | -487540
+50 kHz | 6.546% | 502600 | -499410
+
+Slew-Rate (50 kHz), SR = 0.5026 V/µs

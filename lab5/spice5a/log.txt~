@@ -1,0 +1,54 @@
+exercise1.sp >>
+
+NMOS & PMOS
+
+iD_f = 51 μA
+iD_i = 50.4 μA
+vDS_f = 4.5 V
+vDS_i = 1.5 V
+ID = 50.2 μA
+λ = 0.005
+∆iD/∆vDS = (iD_f-iD_i)/(vDS_f-vDS_i) = 0.2 μA/V = 1/(0.2 μA/V) = 5 MΩ
+∆iD/∆vDS = 1/(λ*ID) = 3.98 MΩ
+
+ro _ 5 MΩ ≈ 3.98 MΩ (22.7% difference)
+
+W = 10μm and L = 1μm and λ = 0.005V(-1)
+iD_f = 511.2 μA
+iD_i = 503.4 μA
+vDS_f = 4.5 V
+vDS_i = 1.5 V
+ID = 501.7 μA
+∆iD/∆vDS = (iD_f-iD_i)/(vDS_f-vDS_i) = 2.9 μA/V = 1/(2.9 μA/V) = 386.65 kΩ
+∆iD/∆vDS = 1/(λ*ID) = 398.63 kΩ
+
+ro _ 386.65 kΩ ≈ 398.63 kΩ (3.1% difference)
+
+W = 1μm and L = 1μm and λ = 0.1V(-1)
+iD_f = 72.4 μA
+iD_i = 57.4 μA
+vDS_f = 4.5 V
+vDS_i = 1.5 V
+ID = 54.9 μA
+∆iD/∆vDS = (iD_f-iD_i)/(vDS_f-vDS_i) = 5.0 μA/V = 1/(5.0 μA/V) = 200 kΩ
+∆iD/∆vDS = 1/(λ*ID) = 182.13 kΩ
+
+ro _ 200 kΩ ≈ 182.13 kΩ (9.4% difference)
+
+exercise2.sp >>
+
+-gm*(ro∥R)|ro = 1/(λ*ID), R = 100 kΩ, λ = 0.01, ID = 8.33 μA, gm = 41.67 μS
+-gm*(ro∥R) = -41.663 mV/V
+SPICE >> gain1 = -4.134 V/V
+
+-gm*(ro∥R)|ro = 1/(λ*ID), R = 100 kΩ, λ = 0.005, ID = 9.62 μA, gm = 48.08 μS
+-gm*(ro∥R) = -48.075 mV/V
+SPICE >> gain2 = -4.623 V/V
+
+-gm*(ro∥R)|ro = 1/(λ*ID), R = 100 kΩ, λ = 0.1, ID = 11.11 μA, gm = 55.55 μS
+-gm*(ro∥R) = -55.494 mV/V
+SPICE >> gain3 = -5.144 V/V
+
+▶ How closely do they match? Describe the relationship between λ and the gain for this circuit.
+
+exercise3.sp

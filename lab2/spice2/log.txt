@@ -1,0 +1,39 @@
+exercise1.sp >>
+
+Result for Part A:
+v(nout) = -1.09989e+01
+
+Results for Part B:
+vo1                 =  -9.991050e-01
+vo2                 =  -1.249100e+00
+vo3                 =  -1.499095e+00
+vo4                 =  -1.749090e+00
+vo5                 =  -1.999085e+00
+The measured gain is -0.99998
+
+exercise2.sp >>
+
+--------------------------------------------------------------------------------
+Index   ofs_1           ofs_2           ofs_out         
+--------------------------------------------------------------------------------
+0       1.000000e+00    5.000000e-01    -1.00469e+00
+1       1.000000e+00    1.000000e+00    -1.00469e+00
+2       1.000000e+00    1.500000e+00    -1.00469e+00
+3       2.000000e+00    5.000000e-01    -2.01294e+00
+4       2.000000e+00    1.000000e+00    -2.01294e+00
+5       2.000000e+00    1.500000e+00    -2.01294e+00
+
+exercise3.sp >>
+
+RF | Mid-Band Gain (av0) | Cutoff Frequency, Upper (fhigh) | Unity-Gain Frequency (ft)
+
+10k | 5.91 dB | 296.98 kHz | 927.17 Hz
+20k | 11.91 dB | 158.91 kHz | 412.54 Hz
+40k | 17.86 dB | 83.06 kHz | 200.67 Hz
+
+∙ As the RF value is increased...
+➤ the mid-band gain increases,
+➤ the upper cutoff frequency decreases,
+➤ and the unity gain frequency decreases.
+
+The magnitude response plot for each case shows that the response reliably holds it's essential form as a bandpass filter. As the value of the feedback resister is increased, however, the trend of the plots shows that the bandwidth of the bandpass filter decreases while the mid-band gain increases.
